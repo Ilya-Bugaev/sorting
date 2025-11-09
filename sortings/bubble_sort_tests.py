@@ -1,9 +1,5 @@
 import pytest
 from bubble_sort import bubble_sort
-import sys
-import os
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 
 class TestBubbleSort:
